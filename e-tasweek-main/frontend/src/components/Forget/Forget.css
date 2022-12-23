@@ -1,0 +1,54 @@
+.auth-form-container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5rem;
+  width: 40%;
+  background-image: url("../../../public/images/home-bg.png");
+  margin-left: 30%;
+}
+.login_title {
+  text-align: center;
+  color: #e0a80d;
+}
+
+.login-form,
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-login {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+.input-login {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.link-btn {
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #e0a80d;
+  display: flex;
+  align-self: center;
+}
+
+@media screen and (max-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+    width: auto;
+  }
+}
